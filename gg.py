@@ -13,24 +13,24 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 # Зареждане на изображения
-background_image = pygame.image.load('_internal/data/background.png')
-player_image = pygame.image.load('_internal/data/player.png')
-bullet_image = pygame.image.load('_internal/data/bullet.png')
+background_image = pygame.image.load('data/background.png')
+player_image = pygame.image.load('data/player.png')
+bullet_image = pygame.image.load('data/bullet.png')
 invader_sprites = [
-    pygame.image.load('_internal/data/invader1.png'),
-    pygame.image.load('_internal/data/invader2.png'),
-    pygame.image.load('_internal/data/invader3.png'),
-    pygame.image.load('_internal/data/invader4.png')
+    pygame.image.load('data/invader1.png'),
+    pygame.image.load('data/invader2.png'),
+    pygame.image.load('data/invader3.png'),
+    pygame.image.load('data/invader4.png')
 ]
-boss_image = pygame.image.load('_internal/data/boss.png')
-boss_bullet_image = pygame.image.load('_internal/data/boss_bullet.png')
-boss_gameover_image = pygame.image.load('_internal/data/boss_gameover.png')
+boss_image = pygame.image.load('data/boss.png')
+boss_bullet_image = pygame.image.load('data/boss_bullet.png')
+boss_gameover_image = pygame.image.load('data/boss_gameover.png')
 
 # Зареждане на звуци
-pygame.mixer.music.load("_internal/data/background_music.wav")
+pygame.mixer.music.load("data/background_music.wav")
 pygame.mixer.music.play(-1)
-shoot_sound = pygame.mixer.Sound("_internal/data/shoot.MP3")
-death_sound = pygame.mixer.Sound("_internal/data/death.wav")
+shoot_sound = pygame.mixer.Sound("data/shoot.MP3")
+death_sound = pygame.mixer.Sound("data/death.wav")
 
 # Параметри
 player_width, player_height = 70, 80
